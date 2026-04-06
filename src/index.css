@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.taskbar{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+.input-class{
+    margin:10px;
+}
+.input-class input{
+    height: 35px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+.add-button{
+    font-size: 1.5em;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgb(43, 231, 22);
+    border-radius: 5px;
+    cursor: pointer;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(240, 100%, 71%);
+    margin: 10px 90px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+ol{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li label{
+    flex:1;
+    font-size: 1.5em;
+}
+.up-pointer{
+    font-size: 2em;
+    background-color: rgb(5, 231, 5);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.down-pointer{
+    margin: 0px 10px;
+    font-size: 2em;
+    background-color: rgb(255, 126, 80);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-button{
+    background-color: hsl(0, 100%, 63%);
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+body{
+    background-color: hsl(0, 0%, 30%);
+}
+.total{
+    margin: 10px;
+}
+.side-h2s{
+    color: white;
+    margin: 25px;
+}
+input[type= checkbox]{
+    margin: 10px;
+}
+.completed-tasks li label{
+    text-decoration: line-through;
+}
+@media screen and (max-width: 700px){
+    li{
+        margin: 10px 20px;
+    }
+}
