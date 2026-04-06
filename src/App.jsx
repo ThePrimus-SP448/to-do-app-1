@@ -1,4 +1,4 @@
-import TaskApp from "./TaskBar.jsx";
+import TaskApp from "./TaskApp.jsx";
 
 // To-Do App built by me for assuring the learning of basics in React
 
